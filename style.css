@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/*
+
+CSS NAVIGATION
+
+*/
+
+html
+{
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.top
+{
+    border: none;
+    margin: -7px;
+    padding-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.navigation a
+{
+text-transform: uppercase;
+font-size: x-large;
+text-decoration: none;
+padding: 10px;
+color: #292529;
+}
+
+.navigation a:hover
+{
+text-decoration: none;
+color:#BFA9BB;
+transition: 0.5s;
+}
+
+.navigation .active
+{
+    color: #009061;
+    font-weight: bold;
+}
+
+/* Message de bienvenue */ 
+
+.bienvenue
+{
+    text-align: center;
+}
+
+.bienvenue h1
+{
+    font-size: 40px;
+    color: #292529;
+}
+
+.bienvenue h2
+{
+    color: #292529;
+
+}
+
+.bienvenue span
+{
+    color: #009061;
+    font-weight: bold;
+}
+
+
+
+/* css pour le body body body */ 
+
+.actualite
+{
+    border-top: 5px solid rgba(14, 120, 90);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(231, 225, 225, 0.81);
+    padding-bottom: 20px;
+}
+
+.titre h1{
+color: #292529;
+font-size: xx-large;
+font-weight: bold;
+}
+
+.contenu
+{
+color:#292529 ;
+}
+
+.contenu p img 
+{
+    margin-left: 65%;
+    margin-top: -50px;
+}
+/* statistique*/
+
+.statistique
+{
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid rgba(14, 120, 90);
+    width: 88%;
+    margin: auto;
+    background-color: rgba(231, 225, 225, 0.81);
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+}
+
+.shadow-stat img
+{
+    transition: 0.5s;
+}
+
+.shadow-stat img:hover
+{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.stat
+{
+color: #292529;
+}
+
+.stat h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.stat span
+{
+    color: red;
+}
+
+/* Reseaux */
+
+.reseaux
+{
+   
+    border-top: 5px solid rgba(14, 120, 90);
+    width: 88%;
+    margin: auto;
+    background-color: rgba(231, 225, 225, 0.81);
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenu
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reseaux i 
+{
+    color: #292529;
+    font-size: 55px;
+}
+.reseaux i:hover
+{
+    transform: scale(0, 0.3);
+    transition: 1s;
+    color: red;
+}
+
+.reseaux figcaption
+{
+    padding-top: 10px ;
+    color: #292529;
+    font-size: x-large;
+}
+
+/* footer */ 
+
+footer{
+    border-top:5px solid rgba(14, 120, 90);
+    width: 87%;
+    margin:auto;
+    background-color:rgba(231, 225, 225, 0.81);
+    font-family: 'Signika Negative', sans-serif;
+    padding:30px;
+    margin-top: 25px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links a{
+    color: #292529;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.top{
+    padding-right: 20px;
+}
+
+.top i{
+    font-size: 45px;
+    color: #292529;
+}
+
+.copy{
+    text-align: center;
+    color: #292529;
+}
+
+.links a:hover,
+.top i:hover{
+    color:rgb(216, 30, 30);
+    transition: 0.5s;
+}
